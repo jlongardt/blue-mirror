@@ -1,23 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 
 body {
-  background-color: #2e3986;
+  background-color: #93c2eb;
 }
 
 .blue-outline {
-  height: 45vh;
-  outline: 5px solid #93c2eb;
+  height: 90vh;
+  outline: 8px solid #2e3986;
   text-align: center;
   overflow: hidden;
   display: grid;
 }
 
 .container-md {
-  margin-top: 23vh;
+  margin-top: 5vh;
 }
 
 .text {
-  margin-top: 24vh;
+  margin-top: 23vh;
   transform: translate(0,-50%);
 }
 
@@ -26,12 +26,6 @@ h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   font-size: 70px;
-}
-
-@media screen and (max-width: 600px) {
-  h1 {
-    font-size: 50px;
-  }
 }
 
 h2 {
@@ -53,7 +47,26 @@ h2 {
 
 
 .startButton {
-  margin-top: 50px;
+  margin-top: 30px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500 !important;
+}
+
+.videoElement {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    min-width: 105%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    background-size: cover;
+    background-color: #2e3986;
+    overflow: hidden;
+    transform: translate(-50%,-50%) scale(-1, 1);
+    -moz-transform: translate(-50%,-50%) scale(-1, 1);
+    -webkit-transform: translate(-50%,-50%) scale(-1, 1);
+    -o-transform: translate(-50%,-50%) scale(-1, 1);
+    -ms-transform: translate(-50%,-50%) scale(-1, 1);
+    z-index: -3;
 }
