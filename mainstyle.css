@@ -20,7 +20,7 @@ body {
 
 img {
   position: absolute;
-  height: 1.4vw;
+  height: 1.3vw;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
@@ -83,7 +83,7 @@ h2 {
 
 ul {
     position: absolute;
-    top: 50%; left: 50%; /*for example purposes only*/
+    top: 45%; left: 50%; /*for example purposes only*/
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -93,4 +93,91 @@ li {
     -webkit-transition: all 2s linear;
     -moz-transition: all 2s linear;
     transition: all 2s linear;
+}
+
+
+.dataContainer {
+  position: absolute;
+  padding-left: 20px; !important;
+  padding-right: 20px;
+  bottom: 10px;
+  z-index: +3;
+  display: none;
+}
+
+.dataSelector {
+  position: relative;
+  margin: 2px;
+  padding-top: 7px;
+  padding-left: 0px;
+  padding-right: 0px;
+  height: 30px;
+  background-color: #2e3986;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  font-weight: 400 !important;
+  vertical-align: middle;
+  color: white;
+  cursor: pointer;
+}
+
+.resWrapper {
+  display: none;
+}
+
+.result {
+  position: relative;
+  margin: 2px;
+  margin-bottom: 13px;
+  padding-left: 0px;
+  padding-right: 0px;
+  height: auto;
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  line-height: 23px;
+  font-weight: 400 !important;
+  color: black;
+}
+
+.arrow-down {
+  visibility: hidden;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,0%);
+  width: 0;
+  height: 0;
+  top: -16px;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid white;
+  z-index: -5;
+}
+
+.resPos {
+  float: left;
+  width: 25%;
+  color: white;
+  background-color: #75b496;
+}
+
+.resNeg {
+  float: left;
+  width: 25%;
+  color: white;
+  background-color: #c9408b;
+}
+
+.resNeu {
+  float: left;
+  width: 25%;
+  color: black;
+  background-color: #ffec00;
+}
+
+.resDon {
+  float: left;
+  width: 25%;
+  color: black;
+  background-color: #c8c8c8;
 }
