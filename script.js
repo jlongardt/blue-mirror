@@ -1,5 +1,6 @@
 var video = document.querySelector(".videoElement");
 
+
 if (navigator.mediaDevices.getUserMedia) {
   navigator.mediaDevices.getUserMedia({ video: true })
     .then(function (stream) {
@@ -9,7 +10,6 @@ if (navigator.mediaDevices.getUserMedia) {
       console.log("Something went wrong!");
     });
 }
-
 
 var type = 1, //circle type - 1 whole, 0.5 half, 0.25 quarter
     radius = '13vw', //distance from center
@@ -29,11 +29,15 @@ $elements.each(function(i) {
 });
 
 $( ".flag_it" ).click(function() {
+  $(".flag").removeClass("active");
+  $(this).addClass("active");
   $(".dataContainer").css("display", "none");
   $(".content_it").css("display", "initial");
 });
 
 $( ".flag_de" ).click(function() {
+  $(".flag").removeClass("active");
+  $(this).addClass("active");
   $(".dataContainer").css("display", "none");
   $(".content_de").css("display", "initial");
 });
