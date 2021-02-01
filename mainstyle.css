@@ -77,18 +77,36 @@ h2 {
   opacity: 0.39;
 }
 
-.glass5 {
+.glass {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: url("img/glass4.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   z-index: 2;
-
   pointer-events: none;
   opacity: 1;
+}
+
+.glass1 {
+    background-image: url("img/glass1.svg");
+}
+
+.glass2 {
+    background-image: url("img/glass2.svg");
+}
+
+.glass3 {
+    background-image: url("img/glass3.svg");
+}
+
+.glass4 {
+    background-image: url("img/glass4.svg");
+}
+
+.glass5 {
+    background-image: url("img/glass5.svg");
 }
 
 .videoElement {

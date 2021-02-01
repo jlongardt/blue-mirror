@@ -29,6 +29,10 @@ $elements.each(function(i) {
 });
 
 $( ".flag_it" ).click(function() {
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5")
   $(".flag").removeClass("active");
   $(this).addClass("active");
   $(".dataContainer").css("display", "none");
@@ -36,6 +40,10 @@ $( ".flag_it" ).click(function() {
 });
 
 $( ".flag_de" ).click(function() {
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5")
   $(".flag").removeClass("active");
   $(this).addClass("active");
   $(".dataContainer").css("display", "none");
@@ -44,10 +52,10 @@ $( ".flag_de" ).click(function() {
 
 
 $( ".selectorIt1" ).click(function() {
+  $(".glass").removeClass("glass2 glass3 glass4 glass5").addClass("glass1");
   $(".dataSelector").css("background-color", "#2e3986");
   $(".dataSelector").css("color", "white");
-  $(".selectorIt1").css("color", "black");
-  $(".selectorIt1").css("background-color", "white");
+  $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
   $(".resIt1").css("display", "flex");
   $(".arrow-down").css("visibility", "hidden");
@@ -55,10 +63,9 @@ $( ".selectorIt1" ).click(function() {
 });
 
 $( ".selectorIt2" ).click(function() {
-  $(".dataSelector").css("background-color", "#2e3986");
-  $(".dataSelector").css("color", "white");
-  $(".selectorIt2").css("color", "black");
-  $(".selectorIt2").css("background-color", "white");
+  $(".glass").removeClass("glass2 glass3 glass4 glass1").addClass("glass5");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
   $(".resIt2").css("display", "flex");
   $(".arrow-down").css("visibility", "hidden");
