@@ -28,6 +28,7 @@ $elements.each(function(i) {
     });
 });
 
+//flag button functionality
 $( ".flag_be" ).click(function() {
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(".resWrapper").css("display", "none");
@@ -48,7 +49,7 @@ $( ".flag_bg" ).click(function() {
   $(".dataContainer").css("display", "none");
   $(".content_bg").css("display", "initial");
 });
-$( ".flag_it" ).click(function() {
+$( ".flag_cz" ).click(function() {
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(".resWrapper").css("display", "none");
   $(".arrow-down").css("visibility", "hidden");
@@ -56,7 +57,17 @@ $( ".flag_it" ).click(function() {
   $(".flag").removeClass("active");
   $(this).addClass("active");
   $(".dataContainer").css("display", "none");
-  $(".content_it").css("display", "initial");
+  $(".content_cz").css("display", "initial");
+});
+$( ".flag_dk" ).click(function() {
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10")
+  $(".flag").removeClass("active");
+  $(this).addClass("active");
+  $(".dataContainer").css("display", "none");
+  $(".content_dk").css("display", "initial");
 });
 $( ".flag_de" ).click(function() {
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
@@ -68,8 +79,228 @@ $( ".flag_de" ).click(function() {
   $(".dataContainer").css("display", "none");
   $(".content_de").css("display", "initial");
 });
+$( ".flag_ee" ).click(function() {
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10")
+  $(".flag").removeClass("active");
+  $(this).addClass("active");
+  $(".dataContainer").css("display", "none");
+  $(".content_ee").css("display", "initial");
+});
+$( ".flag_ie" ).click(function() {
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10")
+  $(".flag").removeClass("active");
+  $(this).addClass("active");
+  $(".dataContainer").css("display", "none");
+  $(".content_ie").css("display", "initial");
+});
+$( ".flag_el" ).click(function() {
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10")
+  $(".flag").removeClass("active");
+  $(this).addClass("active");
+  $(".dataContainer").css("display", "none");
+  $(".content_el").css("display", "initial");
+});
+$( ".flag_es" ).click(function() {
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10")
+  $(".flag").removeClass("active");
+  $(this).addClass("active");
+  $(".dataContainer").css("display", "none");
+  $(".content_es").css("display", "initial");
+});
+$( ".flag_fr" ).click(function() {
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10")
+  $(".flag").removeClass("active");
+  $(this).addClass("active");
+  $(".dataContainer").css("display", "none");
+  $(".content_fr").css("display", "initial");
+});
+$( ".flag_hr" ).click(function() {
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10")
+  $(".flag").removeClass("active");
+  $(this).addClass("active");
+  $(".dataContainer").css("display", "none");
+  $(".content_hr").css("display", "initial");
+});
+$( ".flag_it" ).click(function() {
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10")
+  $(".flag").removeClass("active");
+  $(this).addClass("active");
+  $(".dataContainer").css("display", "none");
+  $(".content_it").css("display", "initial");
+});
+$( ".flag_cy" ).click(function() {
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10")
+  $(".flag").removeClass("active");
+  $(this).addClass("active");
+  $(".dataContainer").css("display", "none");
+  $(".content_cy").css("display", "initial");
+});
+$( ".flag_lv" ).click(function() {
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10")
+  $(".flag").removeClass("active");
+  $(this).addClass("active");
+  $(".dataContainer").css("display", "none");
+  $(".content_lv").css("display", "initial");
+});
+$( ".flag_lt" ).click(function() {
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10")
+  $(".flag").removeClass("active");
+  $(this).addClass("active");
+  $(".dataContainer").css("display", "none");
+  $(".content_lt").css("display", "initial");
+});
+$( ".flag_lu" ).click(function() {
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10")
+  $(".flag").removeClass("active");
+  $(this).addClass("active");
+  $(".dataContainer").css("display", "none");
+  $(".content_lu").css("display", "initial");
+});
+$( ".flag_hu" ).click(function() {
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10")
+  $(".flag").removeClass("active");
+  $(this).addClass("active");
+  $(".dataContainer").css("display", "none");
+  $(".content_hu").css("display", "initial");
+});
+$( ".flag_mt" ).click(function() {
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10")
+  $(".flag").removeClass("active");
+  $(this).addClass("active");
+  $(".dataContainer").css("display", "none");
+  $(".content_mt").css("display", "initial");
+});
+$( ".flag_nl" ).click(function() {
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10")
+  $(".flag").removeClass("active");
+  $(this).addClass("active");
+  $(".dataContainer").css("display", "none");
+  $(".content_nl").css("display", "initial");
+});
+$( ".flag_at" ).click(function() {
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10")
+  $(".flag").removeClass("active");
+  $(this).addClass("active");
+  $(".dataContainer").css("display", "none");
+  $(".content_at").css("display", "initial");
+});
+$( ".flag_pl" ).click(function() {
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10")
+  $(".flag").removeClass("active");
+  $(this).addClass("active");
+  $(".dataContainer").css("display", "none");
+  $(".content_pl").css("display", "initial");
+});
+$( ".flag_pt" ).click(function() {
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10")
+  $(".flag").removeClass("active");
+  $(this).addClass("active");
+  $(".dataContainer").css("display", "none");
+  $(".content_pt").css("display", "initial");
+});
+$( ".flag_ro" ).click(function() {
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10")
+  $(".flag").removeClass("active");
+  $(this).addClass("active");
+  $(".dataContainer").css("display", "none");
+  $(".content_ro").css("display", "initial");
+});
+$( ".flag_si" ).click(function() {
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10")
+  $(".flag").removeClass("active");
+  $(this).addClass("active");
+  $(".dataContainer").css("display", "none");
+  $(".content_si").css("display", "initial");
+});
+$( ".flag_sk" ).click(function() {
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10")
+  $(".flag").removeClass("active");
+  $(this).addClass("active");
+  $(".dataContainer").css("display", "none");
+  $(".content_sk").css("display", "initial");
+});
+$( ".flag_fi" ).click(function() {
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10")
+  $(".flag").removeClass("active");
+  $(this).addClass("active");
+  $(".dataContainer").css("display", "none");
+  $(".content_fi").css("display", "initial");
+});
+$( ".flag_se" ).click(function() {
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10")
+  $(".flag").removeClass("active");
+  $(this).addClass("active");
+  $(".dataContainer").css("display", "none");
+  $(".content_se").css("display", "initial");
+});
 
-
+//selector button functionality
 $( ".selectorBe1" ).click(function() {
   $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
   $(".dataSelector").css("background-color", "#2e3986");
@@ -1026,7 +1257,7 @@ $( ".selectorDe21" ).click(function() {
 });
 
 $( ".selectorEe1" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
   $(".dataSelector").css("background-color", "#2e3986");
   $(".dataSelector").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
@@ -1036,7 +1267,7 @@ $( ".selectorEe1" ).click(function() {
   $(".arrowEe1").css("visibility", "visible");
 });
 $( ".selectorEe2" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1045,7 +1276,7 @@ $( ".selectorEe2" ).click(function() {
   $(".arrowEe2").css("visibility", "visible");
 });
 $( ".selectorEe3" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1054,7 +1285,7 @@ $( ".selectorEe3" ).click(function() {
   $(".arrowEe3").css("visibility", "visible");
 });
 $( ".selectorEe4" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1063,7 +1294,7 @@ $( ".selectorEe4" ).click(function() {
   $(".arrowEe4").css("visibility", "visible");
 });
 $( ".selectorEe5" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1072,7 +1303,7 @@ $( ".selectorEe5" ).click(function() {
   $(".arrowEe5").css("visibility", "visible");
 });
 $( ".selectorEe6" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1081,7 +1312,7 @@ $( ".selectorEe6" ).click(function() {
   $(".arrowEe6").css("visibility", "visible");
 });
 $( ".selectorEe7" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1090,7 +1321,7 @@ $( ".selectorEe7" ).click(function() {
   $(".arrowEe7").css("visibility", "visible");
 });
 $( ".selectorEe8" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1135,7 +1366,7 @@ $( ".selectorEe12" ).click(function() {
   $(".arrowEe12").css("visibility", "visible");
 });
 $( ".selectorEe13" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1144,7 +1375,7 @@ $( ".selectorEe13" ).click(function() {
   $(".arrowEe13").css("visibility", "visible");
 });
 $( ".selectorEe14" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1153,7 +1384,7 @@ $( ".selectorEe14" ).click(function() {
   $(".arrowEe14").css("visibility", "visible");
 });
 $( ".selectorEe15" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1162,7 +1393,7 @@ $( ".selectorEe15" ).click(function() {
   $(".arrowEe15").css("visibility", "visible");
 });
 $( ".selectorEe16" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1171,7 +1402,7 @@ $( ".selectorEe16" ).click(function() {
   $(".arrowEe16").css("visibility", "visible");
 });
 $( ".selectorEe17" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1189,7 +1420,7 @@ $( ".selectorEe18" ).click(function() {
   $(".arrowEe18").css("visibility", "visible");
 });
 $( ".selectorEe19" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1198,7 +1429,7 @@ $( ".selectorEe19" ).click(function() {
   $(".arrowEe19").css("visibility", "visible");
 });
 $( ".selectorEe20" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1207,7 +1438,7 @@ $( ".selectorEe20" ).click(function() {
   $(".arrowEe20").css("visibility", "visible");
 });
 $( ".selectorEe21" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1217,7 +1448,7 @@ $( ".selectorEe21" ).click(function() {
 });
 
 $( ".selectorIe1" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
   $(".dataSelector").css("background-color", "#2e3986");
   $(".dataSelector").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
@@ -1227,7 +1458,7 @@ $( ".selectorIe1" ).click(function() {
   $(".arrowIe1").css("visibility", "visible");
 });
 $( ".selectorIe2" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1236,7 +1467,7 @@ $( ".selectorIe2" ).click(function() {
   $(".arrowIe2").css("visibility", "visible");
 });
 $( ".selectorIe3" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1245,7 +1476,7 @@ $( ".selectorIe3" ).click(function() {
   $(".arrowIe3").css("visibility", "visible");
 });
 $( ".selectorIe4" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1254,7 +1485,7 @@ $( ".selectorIe4" ).click(function() {
   $(".arrowIe4").css("visibility", "visible");
 });
 $( ".selectorIe5" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1263,7 +1494,7 @@ $( ".selectorIe5" ).click(function() {
   $(".arrowIe5").css("visibility", "visible");
 });
 $( ".selectorIe6" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1272,7 +1503,7 @@ $( ".selectorIe6" ).click(function() {
   $(".arrowIe6").css("visibility", "visible");
 });
 $( ".selectorIe7" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1281,7 +1512,7 @@ $( ".selectorIe7" ).click(function() {
   $(".arrowIe7").css("visibility", "visible");
 });
 $( ".selectorIe8" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1290,7 +1521,7 @@ $( ".selectorIe8" ).click(function() {
   $(".arrowIe8").css("visibility", "visible");
 });
 $( ".selectorIe9" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1308,7 +1539,7 @@ $( ".selectorIe10" ).click(function() {
   $(".arrowIe10").css("visibility", "visible");
 });
 $( ".selectorIe11" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1317,7 +1548,7 @@ $( ".selectorIe11" ).click(function() {
   $(".arrowIe11").css("visibility", "visible");
 });
 $( ".selectorIe12" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1326,7 +1557,7 @@ $( ".selectorIe12" ).click(function() {
   $(".arrowIe12").css("visibility", "visible");
 });
 $( ".selectorIe13" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1344,7 +1575,7 @@ $( ".selectorIe14" ).click(function() {
   $(".arrowIe14").css("visibility", "visible");
 });
 $( ".selectorIe15" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1362,7 +1593,7 @@ $( ".selectorIe16" ).click(function() {
   $(".arrowIe16").css("visibility", "visible");
 });
 $( ".selectorIe17" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass10");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1371,7 +1602,7 @@ $( ".selectorIe17" ).click(function() {
   $(".arrowIe17").css("visibility", "visible");
 });
 $( ".selectorIe18" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass10");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1380,7 +1611,7 @@ $( ".selectorIe18" ).click(function() {
   $(".arrowIe18").css("visibility", "visible");
 });
 $( ".selectorIe19" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass10");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1389,7 +1620,7 @@ $( ".selectorIe19" ).click(function() {
   $(".arrowIe19").css("visibility", "visible");
 });
 $( ".selectorIe20" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass10");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1398,7 +1629,7 @@ $( ".selectorIe20" ).click(function() {
   $(".arrowIe20").css("visibility", "visible");
 });
 $( ".selectorIe21" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass10");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1408,7 +1639,7 @@ $( ".selectorIe21" ).click(function() {
 });
 
 $( ".selectorEl1" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986");
   $(".dataSelector").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
@@ -1418,7 +1649,7 @@ $( ".selectorEl1" ).click(function() {
   $(".arrowEl1").css("visibility", "visible");
 });
 $( ".selectorEl2" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass4");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1427,7 +1658,7 @@ $( ".selectorEl2" ).click(function() {
   $(".arrowEl2").css("visibility", "visible");
 });
 $( ".selectorEl3" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass3");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1436,7 +1667,7 @@ $( ".selectorEl3" ).click(function() {
   $(".arrowEl3").css("visibility", "visible");
 });
 $( ".selectorEl4" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass3");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1445,7 +1676,7 @@ $( ".selectorEl4" ).click(function() {
   $(".arrowEl4").css("visibility", "visible");
 });
 $( ".selectorEl5" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass3");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1454,7 +1685,7 @@ $( ".selectorEl5" ).click(function() {
   $(".arrowEl5").css("visibility", "visible");
 });
 $( ".selectorEl6" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass1");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1463,7 +1694,7 @@ $( ".selectorEl6" ).click(function() {
   $(".arrowEl6").css("visibility", "visible");
 });
 $( ".selectorEl7" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass1");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1472,7 +1703,7 @@ $( ".selectorEl7" ).click(function() {
   $(".arrowEl7").css("visibility", "visible");
 });
 $( ".selectorEl8" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass1");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1481,7 +1712,7 @@ $( ".selectorEl8" ).click(function() {
   $(".arrowEl8").css("visibility", "visible");
 });
 $( ".selectorEl9" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass2");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1490,7 +1721,7 @@ $( ".selectorEl9" ).click(function() {
   $(".arrowEl9").css("visibility", "visible");
 });
 $( ".selectorEl10" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass2");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1499,7 +1730,7 @@ $( ".selectorEl10" ).click(function() {
   $(".arrowEl10").css("visibility", "visible");
 });
 $( ".selectorEl11" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass3");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1508,7 +1739,7 @@ $( ".selectorEl11" ).click(function() {
   $(".arrowEl11").css("visibility", "visible");
 });
 $( ".selectorEl12" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass3");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1517,7 +1748,7 @@ $( ".selectorEl12" ).click(function() {
   $(".arrowEl12").css("visibility", "visible");
 });
 $( ".selectorEl13" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass1");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1526,7 +1757,7 @@ $( ".selectorEl13" ).click(function() {
   $(".arrowEl13").css("visibility", "visible");
 });
 $( ".selectorEl14" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass1");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1535,7 +1766,7 @@ $( ".selectorEl14" ).click(function() {
   $(".arrowEl14").css("visibility", "visible");
 });
 $( ".selectorEl15" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass1");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1544,7 +1775,7 @@ $( ".selectorEl15" ).click(function() {
   $(".arrowEl15").css("visibility", "visible");
 });
 $( ".selectorEl16" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass2");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1553,7 +1784,7 @@ $( ".selectorEl16" ).click(function() {
   $(".arrowEl16").css("visibility", "visible");
 });
 $( ".selectorEl17" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass3");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1562,7 +1793,7 @@ $( ".selectorEl17" ).click(function() {
   $(".arrowEl17").css("visibility", "visible");
 });
 $( ".selectorEl18" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass3");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1571,7 +1802,7 @@ $( ".selectorEl18" ).click(function() {
   $(".arrowEl18").css("visibility", "visible");
 });
 $( ".selectorEl19" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1580,7 +1811,7 @@ $( ".selectorEl19" ).click(function() {
   $(".arrowEl19").css("visibility", "visible");
 });
 $( ".selectorEl20" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass4");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1589,7 +1820,7 @@ $( ".selectorEl20" ).click(function() {
   $(".arrowEl20").css("visibility", "visible");
 });
 $( ".selectorEl21" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass4");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1599,7 +1830,7 @@ $( ".selectorEl21" ).click(function() {
 });
 
 $( ".selectorEs1" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
   $(".dataSelector").css("background-color", "#2e3986");
   $(".dataSelector").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
@@ -1609,7 +1840,7 @@ $( ".selectorEs1" ).click(function() {
   $(".arrowEs1").css("visibility", "visible");
 });
 $( ".selectorEs2" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1618,7 +1849,7 @@ $( ".selectorEs2" ).click(function() {
   $(".arrowEs2").css("visibility", "visible");
 });
 $( ".selectorEs3" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1627,7 +1858,7 @@ $( ".selectorEs3" ).click(function() {
   $(".arrowEs3").css("visibility", "visible");
 });
 $( ".selectorEs4" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1636,7 +1867,7 @@ $( ".selectorEs4" ).click(function() {
   $(".arrowEs4").css("visibility", "visible");
 });
 $( ".selectorEs5" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass3");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1645,7 +1876,7 @@ $( ".selectorEs5" ).click(function() {
   $(".arrowEs5").css("visibility", "visible");
 });
 $( ".selectorEs6" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass3");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1654,7 +1885,7 @@ $( ".selectorEs6" ).click(function() {
   $(".arrowEs6").css("visibility", "visible");
 });
 $( ".selectorEs7" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass2");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1663,7 +1894,7 @@ $( ".selectorEs7" ).click(function() {
   $(".arrowEs7").css("visibility", "visible");
 });
 $( ".selectorEs8" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass4");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1672,7 +1903,7 @@ $( ".selectorEs8" ).click(function() {
   $(".arrowEs8").css("visibility", "visible");
 });
 $( ".selectorEs9" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass4");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1681,7 +1912,7 @@ $( ".selectorEs9" ).click(function() {
   $(".arrowEs9").css("visibility", "visible");
 });
 $( ".selectorEs10" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1690,7 +1921,7 @@ $( ".selectorEs10" ).click(function() {
   $(".arrowEs10").css("visibility", "visible");
 });
 $( ".selectorEs11" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1699,7 +1930,7 @@ $( ".selectorEs11" ).click(function() {
   $(".arrowEs11").css("visibility", "visible");
 });
 $( ".selectorEs12" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1708,7 +1939,7 @@ $( ".selectorEs12" ).click(function() {
   $(".arrowEs12").css("visibility", "visible");
 });
 $( ".selectorEs13" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1717,7 +1948,7 @@ $( ".selectorEs13" ).click(function() {
   $(".arrowEs13").css("visibility", "visible");
 });
 $( ".selectorEs14" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1726,7 +1957,7 @@ $( ".selectorEs14" ).click(function() {
   $(".arrowEs14").css("visibility", "visible");
 });
 $( ".selectorEs15" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1735,7 +1966,7 @@ $( ".selectorEs15" ).click(function() {
   $(".arrowEs15").css("visibility", "visible");
 });
 $( ".selectorEs16" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1744,7 +1975,7 @@ $( ".selectorEs16" ).click(function() {
   $(".arrowEs16").css("visibility", "visible");
 });
 $( ".selectorEs17" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1753,7 +1984,7 @@ $( ".selectorEs17" ).click(function() {
   $(".arrowEs17").css("visibility", "visible");
 });
 $( ".selectorEs18" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1762,7 +1993,7 @@ $( ".selectorEs18" ).click(function() {
   $(".arrowEs18").css("visibility", "visible");
 });
 $( ".selectorEs19" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1771,7 +2002,7 @@ $( ".selectorEs19" ).click(function() {
   $(".arrowEs19").css("visibility", "visible");
 });
 $( ".selectorEs20" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1780,7 +2011,7 @@ $( ".selectorEs20" ).click(function() {
   $(".arrowEs20").css("visibility", "visible");
 });
 $( ".selectorEs21" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1790,7 +2021,7 @@ $( ".selectorEs21" ).click(function() {
 });
 
 $( ".selectorFr1" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986");
   $(".dataSelector").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
@@ -1800,7 +2031,7 @@ $( ".selectorFr1" ).click(function() {
   $(".arrowFr1").css("visibility", "visible");
 });
 $( ".selectorFr2" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1809,7 +2040,7 @@ $( ".selectorFr2" ).click(function() {
   $(".arrowFr2").css("visibility", "visible");
 });
 $( ".selectorFr3" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1818,7 +2049,7 @@ $( ".selectorFr3" ).click(function() {
   $(".arrowFr3").css("visibility", "visible");
 });
 $( ".selectorFr4" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1827,7 +2058,7 @@ $( ".selectorFr4" ).click(function() {
   $(".arrowFr4").css("visibility", "visible");
 });
 $( ".selectorFr5" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1836,7 +2067,7 @@ $( ".selectorFr5" ).click(function() {
   $(".arrowFr5").css("visibility", "visible");
 });
 $( ".selectorFr6" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1845,7 +2076,7 @@ $( ".selectorFr6" ).click(function() {
   $(".arrowFr6").css("visibility", "visible");
 });
 $( ".selectorFr7" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1854,7 +2085,7 @@ $( ".selectorFr7" ).click(function() {
   $(".arrowFr7").css("visibility", "visible");
 });
 $( ".selectorFr8" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass4");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1863,7 +2094,7 @@ $( ".selectorFr8" ).click(function() {
   $(".arrowFr8").css("visibility", "visible");
 });
 $( ".selectorFr9" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1872,7 +2103,7 @@ $( ".selectorFr9" ).click(function() {
   $(".arrowFr9").css("visibility", "visible");
 });
 $( ".selectorFr10" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1881,7 +2112,7 @@ $( ".selectorFr10" ).click(function() {
   $(".arrowFr10").css("visibility", "visible");
 });
 $( ".selectorFr11" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1890,7 +2121,7 @@ $( ".selectorFr11" ).click(function() {
   $(".arrowFr11").css("visibility", "visible");
 });
 $( ".selectorFr12" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1899,7 +2130,7 @@ $( ".selectorFr12" ).click(function() {
   $(".arrowFr12").css("visibility", "visible");
 });
 $( ".selectorFr13" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1908,7 +2139,7 @@ $( ".selectorFr13" ).click(function() {
   $(".arrowFr13").css("visibility", "visible");
 });
 $( ".selectorFr14" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass4");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1917,7 +2148,7 @@ $( ".selectorFr14" ).click(function() {
   $(".arrowFr14").css("visibility", "visible");
 });
 $( ".selectorFr15" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1926,7 +2157,7 @@ $( ".selectorFr15" ).click(function() {
   $(".arrowFr15").css("visibility", "visible");
 });
 $( ".selectorFr16" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1935,7 +2166,7 @@ $( ".selectorFr16" ).click(function() {
   $(".arrowFr16").css("visibility", "visible");
 });
 $( ".selectorFr17" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1944,7 +2175,7 @@ $( ".selectorFr17" ).click(function() {
   $(".arrowFr17").css("visibility", "visible");
 });
 $( ".selectorFr18" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1953,7 +2184,7 @@ $( ".selectorFr18" ).click(function() {
   $(".arrowFr18").css("visibility", "visible");
 });
 $( ".selectorFr19" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1962,7 +2193,7 @@ $( ".selectorFr19" ).click(function() {
   $(".arrowFr19").css("visibility", "visible");
 });
 $( ".selectorFr20" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1971,7 +2202,7 @@ $( ".selectorFr20" ).click(function() {
   $(".arrowFr20").css("visibility", "visible");
 });
 $( ".selectorFr21" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -1981,7 +2212,7 @@ $( ".selectorFr21" ).click(function() {
 });
 
 $( ".selectorHr1" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass4");
   $(".dataSelector").css("background-color", "#2e3986");
   $(".dataSelector").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
@@ -1991,7 +2222,7 @@ $( ".selectorHr1" ).click(function() {
   $(".arrowHr1").css("visibility", "visible");
 });
 $( ".selectorHr2" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2000,7 +2231,7 @@ $( ".selectorHr2" ).click(function() {
   $(".arrowHr2").css("visibility", "visible");
 });
 $( ".selectorHr3" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2009,7 +2240,7 @@ $( ".selectorHr3" ).click(function() {
   $(".arrowHr3").css("visibility", "visible");
 });
 $( ".selectorHr4" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2018,7 +2249,7 @@ $( ".selectorHr4" ).click(function() {
   $(".arrowHr4").css("visibility", "visible");
 });
 $( ".selectorHr5" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2027,7 +2258,7 @@ $( ".selectorHr5" ).click(function() {
   $(".arrowHr5").css("visibility", "visible");
 });
 $( ".selectorHr6" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2036,7 +2267,7 @@ $( ".selectorHr6" ).click(function() {
   $(".arrowHr6").css("visibility", "visible");
 });
 $( ".selectorHr7" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2045,7 +2276,7 @@ $( ".selectorHr7" ).click(function() {
   $(".arrowHr7").css("visibility", "visible");
 });
 $( ".selectorHr8" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2054,7 +2285,7 @@ $( ".selectorHr8" ).click(function() {
   $(".arrowHr8").css("visibility", "visible");
 });
 $( ".selectorHr9" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2063,7 +2294,7 @@ $( ".selectorHr9" ).click(function() {
   $(".arrowHr9").css("visibility", "visible");
 });
 $( ".selectorHr10" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2081,7 +2312,7 @@ $( ".selectorHr11" ).click(function() {
   $(".arrowHr11").css("visibility", "visible");
 });
 $( ".selectorHr12" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2090,7 +2321,7 @@ $( ".selectorHr12" ).click(function() {
   $(".arrowHr12").css("visibility", "visible");
 });
 $( ".selectorHr13" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2099,7 +2330,7 @@ $( ".selectorHr13" ).click(function() {
   $(".arrowHr13").css("visibility", "visible");
 });
 $( ".selectorHr14" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2108,7 +2339,7 @@ $( ".selectorHr14" ).click(function() {
   $(".arrowHr14").css("visibility", "visible");
 });
 $( ".selectorHr15" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2117,7 +2348,7 @@ $( ".selectorHr15" ).click(function() {
   $(".arrowHr15").css("visibility", "visible");
 });
 $( ".selectorHr16" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2126,7 +2357,7 @@ $( ".selectorHr16" ).click(function() {
   $(".arrowHr16").css("visibility", "visible");
 });
 $( ".selectorHr17" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2135,7 +2366,7 @@ $( ".selectorHr17" ).click(function() {
   $(".arrowHr17").css("visibility", "visible");
 });
 $( ".selectorHr18" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2144,7 +2375,7 @@ $( ".selectorHr18" ).click(function() {
   $(".arrowHr18").css("visibility", "visible");
 });
 $( ".selectorHr19" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2153,7 +2384,7 @@ $( ".selectorHr19" ).click(function() {
   $(".arrowHr19").css("visibility", "visible");
 });
 $( ".selectorHr20" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2363,7 +2594,7 @@ $( ".selectorIt21" ).click(function() {
 });
 
 $( ".selectorCy1" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
   $(".dataSelector").css("background-color", "#2e3986");
   $(".dataSelector").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
@@ -2373,7 +2604,7 @@ $( ".selectorCy1" ).click(function() {
   $(".arrowCy1").css("visibility", "visible");
 });
 $( ".selectorCy2" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2382,7 +2613,7 @@ $( ".selectorCy2" ).click(function() {
   $(".arrowCy2").css("visibility", "visible");
 });
 $( ".selectorCy3" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2391,7 +2622,7 @@ $( ".selectorCy3" ).click(function() {
   $(".arrowCy3").css("visibility", "visible");
 });
 $( ".selectorCy4" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2400,7 +2631,7 @@ $( ".selectorCy4" ).click(function() {
   $(".arrowCy4").css("visibility", "visible");
 });
 $( ".selectorCy5" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass4");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2409,7 +2640,7 @@ $( ".selectorCy5" ).click(function() {
   $(".arrowCy5").css("visibility", "visible");
 });
 $( ".selectorCy6" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass2");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2418,7 +2649,7 @@ $( ".selectorCy6" ).click(function() {
   $(".arrowCy6").css("visibility", "visible");
 });
 $( ".selectorCy7" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass0");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2427,7 +2658,7 @@ $( ".selectorCy7" ).click(function() {
   $(".arrowCy7").css("visibility", "visible");
 });
 $( ".selectorCy8" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass1");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2436,7 +2667,7 @@ $( ".selectorCy8" ).click(function() {
   $(".arrowCy8").css("visibility", "visible");
 });
 $( ".selectorCy9" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass3");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2445,7 +2676,7 @@ $( ".selectorCy9" ).click(function() {
   $(".arrowCy9").css("visibility", "visible");
 });
 $( ".selectorCy10" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass3");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2454,7 +2685,7 @@ $( ".selectorCy10" ).click(function() {
   $(".arrowCy10").css("visibility", "visible");
 });
 $( ".selectorCy11" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass2");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2463,7 +2694,7 @@ $( ".selectorCy11" ).click(function() {
   $(".arrowCy11").css("visibility", "visible");
 });
 $( ".selectorCy12" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass2");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2472,7 +2703,7 @@ $( ".selectorCy12" ).click(function() {
   $(".arrowCy12").css("visibility", "visible");
 });
 $( ".selectorCy13" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass3");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2481,7 +2712,7 @@ $( ".selectorCy13" ).click(function() {
   $(".arrowCy13").css("visibility", "visible");
 });
 $( ".selectorCy14" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass3");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2490,7 +2721,7 @@ $( ".selectorCy14" ).click(function() {
   $(".arrowCy14").css("visibility", "visible");
 });
 $( ".selectorCy15" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass4");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2499,7 +2730,7 @@ $( ".selectorCy15" ).click(function() {
   $(".arrowCy15").css("visibility", "visible");
 });
 $( ".selectorCy16" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2508,7 +2739,7 @@ $( ".selectorCy16" ).click(function() {
   $(".arrowCy16").css("visibility", "visible");
 });
 $( ".selectorCy17" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2517,7 +2748,7 @@ $( ".selectorCy17" ).click(function() {
   $(".arrowCy17").css("visibility", "visible");
 });
 $( ".selectorCy18" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2526,7 +2757,7 @@ $( ".selectorCy18" ).click(function() {
   $(".arrowCy18").css("visibility", "visible");
 });
 $( ".selectorCy19" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2535,7 +2766,7 @@ $( ".selectorCy19" ).click(function() {
   $(".arrowCy19").css("visibility", "visible");
 });
 $( ".selectorCy20" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2544,7 +2775,7 @@ $( ".selectorCy20" ).click(function() {
   $(".arrowCy20").css("visibility", "visible");
 });
 $( ".selectorCy21" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2554,7 +2785,7 @@ $( ".selectorCy21" ).click(function() {
 });
 
 $( ".selectorLv1" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
   $(".dataSelector").css("background-color", "#2e3986");
   $(".dataSelector").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
@@ -2564,7 +2795,7 @@ $( ".selectorLv1" ).click(function() {
   $(".arrowLv1").css("visibility", "visible");
 });
 $( ".selectorLv2" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2573,7 +2804,7 @@ $( ".selectorLv2" ).click(function() {
   $(".arrowLv2").css("visibility", "visible");
 });
 $( ".selectorLv3" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2582,7 +2813,7 @@ $( ".selectorLv3" ).click(function() {
   $(".arrowLv3").css("visibility", "visible");
 });
 $( ".selectorLv4" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2591,7 +2822,7 @@ $( ".selectorLv4" ).click(function() {
   $(".arrowLv4").css("visibility", "visible");
 });
 $( ".selectorLv5" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2600,7 +2831,7 @@ $( ".selectorLv5" ).click(function() {
   $(".arrowLv5").css("visibility", "visible");
 });
 $( ".selectorLv6" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2609,7 +2840,7 @@ $( ".selectorLv6" ).click(function() {
   $(".arrowLv6").css("visibility", "visible");
 });
 $( ".selectorLv7" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2618,7 +2849,7 @@ $( ".selectorLv7" ).click(function() {
   $(".arrowLv7").css("visibility", "visible");
 });
 $( ".selectorLv8" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2627,7 +2858,7 @@ $( ".selectorLv8" ).click(function() {
   $(".arrowLv8").css("visibility", "visible");
 });
 $( ".selectorLv9" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2636,7 +2867,7 @@ $( ".selectorLv9" ).click(function() {
   $(".arrowLv9").css("visibility", "visible");
 });
 $( ".selectorLv10" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2645,7 +2876,7 @@ $( ".selectorLv10" ).click(function() {
   $(".arrowLv10").css("visibility", "visible");
 });
 $( ".selectorLv11" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2654,7 +2885,7 @@ $( ".selectorLv11" ).click(function() {
   $(".arrowLv11").css("visibility", "visible");
 });
 $( ".selectorLv12" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2663,7 +2894,7 @@ $( ".selectorLv12" ).click(function() {
   $(".arrowLv12").css("visibility", "visible");
 });
 $( ".selectorLv13" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2672,7 +2903,7 @@ $( ".selectorLv13" ).click(function() {
   $(".arrowLv13").css("visibility", "visible");
 });
 $( ".selectorLv14" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2681,7 +2912,7 @@ $( ".selectorLv14" ).click(function() {
   $(".arrowLv14").css("visibility", "visible");
 });
 $( ".selectorLv15" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2690,7 +2921,7 @@ $( ".selectorLv15" ).click(function() {
   $(".arrowLv15").css("visibility", "visible");
 });
 $( ".selectorLv16" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2699,7 +2930,7 @@ $( ".selectorLv16" ).click(function() {
   $(".arrowLv16").css("visibility", "visible");
 });
 $( ".selectorLv17" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2717,7 +2948,7 @@ $( ".selectorLv18" ).click(function() {
   $(".arrowLv18").css("visibility", "visible");
 });
 $( ".selectorLv19" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2726,7 +2957,7 @@ $( ".selectorLv19" ).click(function() {
   $(".arrowLv19").css("visibility", "visible");
 });
 $( ".selectorLv20" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2745,7 +2976,7 @@ $( ".selectorLv21" ).click(function() {
 });
 
 $( ".selectorLt1" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
   $(".dataSelector").css("background-color", "#2e3986");
   $(".dataSelector").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
@@ -2755,7 +2986,7 @@ $( ".selectorLt1" ).click(function() {
   $(".arrowLt1").css("visibility", "visible");
 });
 $( ".selectorLt2" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2764,7 +2995,7 @@ $( ".selectorLt2" ).click(function() {
   $(".arrowLt2").css("visibility", "visible");
 });
 $( ".selectorLt3" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2773,7 +3004,7 @@ $( ".selectorLt3" ).click(function() {
   $(".arrowLt3").css("visibility", "visible");
 });
 $( ".selectorLt4" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2782,7 +3013,7 @@ $( ".selectorLt4" ).click(function() {
   $(".arrowLt4").css("visibility", "visible");
 });
 $( ".selectorLt5" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2791,7 +3022,7 @@ $( ".selectorLt5" ).click(function() {
   $(".arrowLt5").css("visibility", "visible");
 });
 $( ".selectorLt6" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2800,7 +3031,7 @@ $( ".selectorLt6" ).click(function() {
   $(".arrowLt6").css("visibility", "visible");
 });
 $( ".selectorLt7" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2809,7 +3040,7 @@ $( ".selectorLt7" ).click(function() {
   $(".arrowLt7").css("visibility", "visible");
 });
 $( ".selectorLt8" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2827,7 +3058,7 @@ $( ".selectorLt9" ).click(function() {
   $(".arrowLt9").css("visibility", "visible");
 });
 $( ".selectorLt10" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2836,7 +3067,7 @@ $( ".selectorLt10" ).click(function() {
   $(".arrowLt10").css("visibility", "visible");
 });
 $( ".selectorLt11" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2845,7 +3076,7 @@ $( ".selectorLt11" ).click(function() {
   $(".arrowLt11").css("visibility", "visible");
 });
 $( ".selectorLt12" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2872,7 +3103,7 @@ $( ".selectorLt14" ).click(function() {
   $(".arrowLt14").css("visibility", "visible");
 });
 $( ".selectorLt15" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2881,7 +3112,7 @@ $( ".selectorLt15" ).click(function() {
   $(".arrowLt15").css("visibility", "visible");
 });
 $( ".selectorLt16" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2890,7 +3121,7 @@ $( ".selectorLt16" ).click(function() {
   $(".arrowLt16").css("visibility", "visible");
 });
 $( ".selectorLt17" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2926,7 +3157,7 @@ $( ".selectorLt20" ).click(function() {
   $(".arrowLt20").css("visibility", "visible");
 });
 $( ".selectorLt21" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2936,7 +3167,7 @@ $( ".selectorLt21" ).click(function() {
 });
 
 $( ".selectorLu1" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
   $(".dataSelector").css("background-color", "#2e3986");
   $(".dataSelector").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
@@ -2946,7 +3177,7 @@ $( ".selectorLu1" ).click(function() {
   $(".arrowLu1").css("visibility", "visible");
 });
 $( ".selectorLu2" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2955,7 +3186,7 @@ $( ".selectorLu2" ).click(function() {
   $(".arrowLu2").css("visibility", "visible");
 });
 $( ".selectorLu3" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2964,7 +3195,7 @@ $( ".selectorLu3" ).click(function() {
   $(".arrowLu3").css("visibility", "visible");
 });
 $( ".selectorLu4" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2973,7 +3204,7 @@ $( ".selectorLu4" ).click(function() {
   $(".arrowLu4").css("visibility", "visible");
 });
 $( ".selectorLu5" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2982,7 +3213,7 @@ $( ".selectorLu5" ).click(function() {
   $(".arrowLu5").css("visibility", "visible");
 });
 $( ".selectorLu6" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -2991,7 +3222,7 @@ $( ".selectorLu6" ).click(function() {
   $(".arrowLu6").css("visibility", "visible");
 });
 $( ".selectorLu7" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -3000,7 +3231,7 @@ $( ".selectorLu7" ).click(function() {
   $(".arrowLu7").css("visibility", "visible");
 });
 $( ".selectorLu8" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -3009,7 +3240,7 @@ $( ".selectorLu8" ).click(function() {
   $(".arrowLu8").css("visibility", "visible");
 });
 $( ".selectorLu9" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -3045,7 +3276,7 @@ $( ".selectorLu12" ).click(function() {
   $(".arrowLu12").css("visibility", "visible");
 });
 $( ".selectorLu13" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -3054,7 +3285,7 @@ $( ".selectorLu13" ).click(function() {
   $(".arrowLu13").css("visibility", "visible");
 });
 $( ".selectorLu14" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -3072,7 +3303,7 @@ $( ".selectorLu15" ).click(function() {
   $(".arrowLu15").css("visibility", "visible");
 });
 $( ".selectorLu16" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -3081,7 +3312,7 @@ $( ".selectorLu16" ).click(function() {
   $(".arrowLu16").css("visibility", "visible");
 });
 $( ".selectorLu17" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -3108,7 +3339,7 @@ $( ".selectorLu19" ).click(function() {
   $(".arrowLu19").css("visibility", "visible");
 });
 $( ".selectorLu20" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -3117,7 +3348,7 @@ $( ".selectorLu20" ).click(function() {
   $(".arrowLu20").css("visibility", "visible");
 });
 $( ".selectorLu21" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -3127,7 +3358,7 @@ $( ".selectorLu21" ).click(function() {
 });
 
 $( ".selectorHu1" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
   $(".dataSelector").css("background-color", "#2e3986");
   $(".dataSelector").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
@@ -3137,7 +3368,7 @@ $( ".selectorHu1" ).click(function() {
   $(".arrowHu1").css("visibility", "visible");
 });
 $( ".selectorHu2" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -3146,7 +3377,7 @@ $( ".selectorHu2" ).click(function() {
   $(".arrowHu2").css("visibility", "visible");
 });
 $( ".selectorHu3" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -3155,7 +3386,7 @@ $( ".selectorHu3" ).click(function() {
   $(".arrowHu3").css("visibility", "visible");
 });
 $( ".selectorHu4" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -3164,7 +3395,7 @@ $( ".selectorHu4" ).click(function() {
   $(".arrowHu4").css("visibility", "visible");
 });
 $( ".selectorHu5" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass3");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -3173,7 +3404,7 @@ $( ".selectorHu5" ).click(function() {
   $(".arrowHu5").css("visibility", "visible");
 });
 $( ".selectorHu6" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass4");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -3182,7 +3413,7 @@ $( ".selectorHu6" ).click(function() {
   $(".arrowHu6").css("visibility", "visible");
 });
 $( ".selectorHu7" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -3191,7 +3422,7 @@ $( ".selectorHu7" ).click(function() {
   $(".arrowHu7").css("visibility", "visible");
 });
 $( ".selectorHu8" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -3200,7 +3431,7 @@ $( ".selectorHu8" ).click(function() {
   $(".arrowHu8").css("visibility", "visible");
 });
 $( ".selectorHu9" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -3209,7 +3440,7 @@ $( ".selectorHu9" ).click(function() {
   $(".arrowHu9").css("visibility", "visible");
 });
 $( ".selectorHu10" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -3218,7 +3449,7 @@ $( ".selectorHu10" ).click(function() {
   $(".arrowHu10").css("visibility", "visible");
 });
 $( ".selectorHu11" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -3227,7 +3458,7 @@ $( ".selectorHu11" ).click(function() {
   $(".arrowHu11").css("visibility", "visible");
 });
 $( ".selectorHu12" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -3236,7 +3467,7 @@ $( ".selectorHu12" ).click(function() {
   $(".arrowHu12").css("visibility", "visible");
 });
 $( ".selectorHu13" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -3245,7 +3476,7 @@ $( ".selectorHu13" ).click(function() {
   $(".arrowHu13").css("visibility", "visible");
 });
 $( ".selectorHu14" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -3254,7 +3485,7 @@ $( ".selectorHu14" ).click(function() {
   $(".arrowHu14").css("visibility", "visible");
 });
 $( ".selectorHu15" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -3263,7 +3494,7 @@ $( ".selectorHu15" ).click(function() {
   $(".arrowHu15").css("visibility", "visible");
 });
 $( ".selectorHu16" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -3272,7 +3503,7 @@ $( ".selectorHu16" ).click(function() {
   $(".arrowHu16").css("visibility", "visible");
 });
 $( ".selectorHu17" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -3281,7 +3512,7 @@ $( ".selectorHu17" ).click(function() {
   $(".arrowHu17").css("visibility", "visible");
 });
 $( ".selectorHu18" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -3290,7 +3521,7 @@ $( ".selectorHu18" ).click(function() {
   $(".arrowHu18").css("visibility", "visible");
 });
 $( ".selectorHu19" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -3318,7 +3549,7 @@ $( ".selectorHu21" ).click(function() {
 });
 
 $( ".selectorMt1" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
   $(".dataSelector").css("background-color", "#2e3986");
   $(".dataSelector").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
@@ -3328,7 +3559,7 @@ $( ".selectorMt1" ).click(function() {
   $(".arrowMt1").css("visibility", "visible");
 });
 $( ".selectorMt2" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -3337,7 +3568,7 @@ $( ".selectorMt2" ).click(function() {
   $(".arrowMt2").css("visibility", "visible");
 });
 $( ".selectorMt3" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -3346,7 +3577,7 @@ $( ".selectorMt3" ).click(function() {
   $(".arrowMt3").css("visibility", "visible");
 });
 $( ".selectorMt4" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -3355,7 +3586,7 @@ $( ".selectorMt4" ).click(function() {
   $(".arrowMt4").css("visibility", "visible");
 });
 $( ".selectorMt5" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -3364,7 +3595,7 @@ $( ".selectorMt5" ).click(function() {
   $(".arrowMt5").css("visibility", "visible");
 });
 $( ".selectorMt6" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -3373,7 +3604,7 @@ $( ".selectorMt6" ).click(function() {
   $(".arrowMt6").css("visibility", "visible");
 });
 $( ".selectorMt7" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -3382,7 +3613,7 @@ $( ".selectorMt7" ).click(function() {
   $(".arrowMt7").css("visibility", "visible");
 });
 $( ".selectorMt8" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -3409,7 +3640,7 @@ $( ".selectorMt10" ).click(function() {
   $(".arrowMt10").css("visibility", "visible");
 });
 $( ".selectorMt11" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -3418,7 +3649,7 @@ $( ".selectorMt11" ).click(function() {
   $(".arrowMt11").css("visibility", "visible");
 });
 $( ".selectorMt12" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -3427,7 +3658,7 @@ $( ".selectorMt12" ).click(function() {
   $(".arrowMt12").css("visibility", "visible");
 });
 $( ".selectorMt13" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -3454,7 +3685,7 @@ $( ".selectorMt15" ).click(function() {
   $(".arrowMt15").css("visibility", "visible");
 });
 $( ".selectorMt16" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -3463,7 +3694,7 @@ $( ".selectorMt16" ).click(function() {
   $(".arrowMt16").css("visibility", "visible");
 });
 $( ".selectorMt17" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -3481,7 +3712,7 @@ $( ".selectorMt18" ).click(function() {
   $(".arrowMt18").css("visibility", "visible");
 });
 $( ".selectorMt19" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -3490,7 +3721,7 @@ $( ".selectorMt19" ).click(function() {
   $(".arrowMt19").css("visibility", "visible");
 });
 $( ".selectorMt20" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
@@ -3499,11 +3730,1730 @@ $( ".selectorMt20" ).click(function() {
   $(".arrowMt20").css("visibility", "visible");
 });
 $( ".selectorMt21" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
   $(".arrow-down").css("visibility", "hidden");
   $(".resMt21").css("display", "flex");
   $(".arrowMt21").css("visibility", "visible");
+});
+
+$( ".selectorNl1" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
+  $(".dataSelector").css("background-color", "#2e3986");
+  $(".dataSelector").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".resNl1").css("display", "flex");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".arrowNl1").css("visibility", "visible");
+});
+$( ".selectorNl2" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".resNl2").css("display", "flex");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".arrowNl2").css("visibility", "visible");
+});
+$( ".selectorNl3" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".resNl3").css("display", "flex");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".arrowNl3").css("visibility", "visible");
+});
+$( ".selectorNl4" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass4");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resNl4").css("display", "flex");
+  $(".arrowNl4").css("visibility", "visible");
+});
+$( ".selectorNl5" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resNl5").css("display", "flex");
+  $(".arrowNl5").css("visibility", "visible");
+});
+$( ".selectorNl6" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass4");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resNl6").css("display", "flex");
+  $(".arrowNl6").css("visibility", "visible");
+});
+$( ".selectorNl7" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass4");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resNl7").css("display", "flex");
+  $(".arrowNl7").css("visibility", "visible");
+});
+$( ".selectorNl8" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass4");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resNl8").css("display", "flex");
+  $(".arrowNl8").css("visibility", "visible");
+});
+$( ".selectorNl9" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resNl9").css("display", "flex");
+  $(".arrowNl9").css("visibility", "visible");
+});
+$( ".selectorNl10" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resNl10").css("display", "flex");
+  $(".arrowNl10").css("visibility", "visible");
+});
+$( ".selectorNl11" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resNl11").css("display", "flex");
+  $(".arrowNl11").css("visibility", "visible");
+});
+$( ".selectorNl12" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resNl12").css("display", "flex");
+  $(".arrowNl12").css("visibility", "visible");
+});
+$( ".selectorNl13" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resNl13").css("display", "flex");
+  $(".arrowNl13").css("visibility", "visible");
+});
+$( ".selectorNl14" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resNl14").css("display", "flex");
+  $(".arrowNl14").css("visibility", "visible");
+});
+$( ".selectorNl15" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resNl15").css("display", "flex");
+  $(".arrowNl15").css("visibility", "visible");
+});
+$( ".selectorNl16" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resNl16").css("display", "flex");
+  $(".arrowNl16").css("visibility", "visible");
+});
+$( ".selectorNl17" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resNl17").css("display", "flex");
+  $(".arrowNl17").css("visibility", "visible");
+});
+$( ".selectorNl18" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resNl18").css("display", "flex");
+  $(".arrowNl18").css("visibility", "visible");
+});
+$( ".selectorNl19" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resNl19").css("display", "flex");
+  $(".arrowNl19").css("visibility", "visible");
+});
+$( ".selectorNl20" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resNl20").css("display", "flex");
+  $(".arrowNl20").css("visibility", "visible");
+});
+$( ".selectorNl21" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resNl21").css("display", "flex");
+  $(".arrowNl21").css("visibility", "visible");
+});
+
+$( ".selectorAt1" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass4");
+  $(".dataSelector").css("background-color", "#2e3986");
+  $(".dataSelector").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".resAt1").css("display", "flex");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".arrowAt1").css("visibility", "visible");
+});
+$( ".selectorAt2" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass4");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".resAt2").css("display", "flex");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".arrowAt2").css("visibility", "visible");
+});
+$( ".selectorAt3" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass4");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".resAt3").css("display", "flex");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".arrowAt3").css("visibility", "visible");
+});
+$( ".selectorAt4" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass3");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resAt4").css("display", "flex");
+  $(".arrowAt4").css("visibility", "visible");
+});
+$( ".selectorAt5" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass3");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resAt5").css("display", "flex");
+  $(".arrowAt5").css("visibility", "visible");
+});
+$( ".selectorAt6" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass3");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resAt6").css("display", "flex");
+  $(".arrowAt6").css("visibility", "visible");
+});
+$( ".selectorAt7" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass4");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resAt7").css("display", "flex");
+  $(".arrowAt7").css("visibility", "visible");
+});
+$( ".selectorAt8" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass3");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resAt8").css("display", "flex");
+  $(".arrowAt8").css("visibility", "visible");
+});
+$( ".selectorAt9" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass4");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resAt9").css("display", "flex");
+  $(".arrowAt9").css("visibility", "visible");
+});
+$( ".selectorAt10" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass4");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resAt10").css("display", "flex");
+  $(".arrowAt10").css("visibility", "visible");
+});
+$( ".selectorAt11" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass4");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resAt11").css("display", "flex");
+  $(".arrowAt11").css("visibility", "visible");
+});
+$( ".selectorAt12" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass2");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resAt12").css("display", "flex");
+  $(".arrowAt12").css("visibility", "visible");
+});
+$( ".selectorAt13" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass4");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resAt13").css("display", "flex");
+  $(".arrowAt13").css("visibility", "visible");
+});
+$( ".selectorAt14" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass4");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resAt14").css("display", "flex");
+  $(".arrowAt14").css("visibility", "visible");
+});
+$( ".selectorAt15" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resAt15").css("display", "flex");
+  $(".arrowAt15").css("visibility", "visible");
+});
+$( ".selectorAt16" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resAt16").css("display", "flex");
+  $(".arrowAt16").css("visibility", "visible");
+});
+$( ".selectorAt17" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resAt17").css("display", "flex");
+  $(".arrowAt17").css("visibility", "visible");
+});
+$( ".selectorAt18" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resAt18").css("display", "flex");
+  $(".arrowAt18").css("visibility", "visible");
+});
+$( ".selectorAt19" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resAt19").css("display", "flex");
+  $(".arrowAt19").css("visibility", "visible");
+});
+$( ".selectorAt20" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resAt20").css("display", "flex");
+  $(".arrowAt20").css("visibility", "visible");
+});
+$( ".selectorAt21" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resAt21").css("display", "flex");
+  $(".arrowAt21").css("visibility", "visible");
+});
+
+$( ".selectorPl1" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".dataSelector").css("background-color", "#2e3986");
+  $(".dataSelector").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".resPl1").css("display", "flex");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".arrowPl1").css("visibility", "visible");
+});
+$( ".selectorPl2" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".resPl2").css("display", "flex");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".arrowPl2").css("visibility", "visible");
+});
+$( ".selectorPl3" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".resPl3").css("display", "flex");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".arrowPl3").css("visibility", "visible");
+});
+$( ".selectorPl4" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resPl4").css("display", "flex");
+  $(".arrowPl4").css("visibility", "visible");
+});
+$( ".selectorPl5" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resPl5").css("display", "flex");
+  $(".arrowPl5").css("visibility", "visible");
+});
+$( ".selectorPl6" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resPl6").css("display", "flex");
+  $(".arrowPl6").css("visibility", "visible");
+});
+$( ".selectorPl7" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resPl7").css("display", "flex");
+  $(".arrowPl7").css("visibility", "visible");
+});
+$( ".selectorPl8" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resPl8").css("display", "flex");
+  $(".arrowPl8").css("visibility", "visible");
+});
+$( ".selectorPl9" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resPl9").css("display", "flex");
+  $(".arrowPl9").css("visibility", "visible");
+});
+$( ".selectorPl10" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass10");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resPl10").css("display", "flex");
+  $(".arrowPl10").css("visibility", "visible");
+});
+$( ".selectorPl11" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resPl11").css("display", "flex");
+  $(".arrowPl11").css("visibility", "visible");
+});
+$( ".selectorPl12" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resPl12").css("display", "flex");
+  $(".arrowPl12").css("visibility", "visible");
+});
+$( ".selectorPl13" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resPl13").css("display", "flex");
+  $(".arrowPl13").css("visibility", "visible");
+});
+$( ".selectorPl14" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resPl14").css("display", "flex");
+  $(".arrowPl14").css("visibility", "visible");
+});
+$( ".selectorPl15" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resPl15").css("display", "flex");
+  $(".arrowPl15").css("visibility", "visible");
+});
+$( ".selectorPl16" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resPl16").css("display", "flex");
+  $(".arrowPl16").css("visibility", "visible");
+});
+$( ".selectorPl17" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resPl17").css("display", "flex");
+  $(".arrowPl17").css("visibility", "visible");
+});
+$( ".selectorPl18" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resPl18").css("display", "flex");
+  $(".arrowPl18").css("visibility", "visible");
+});
+$( ".selectorPl19" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resPl19").css("display", "flex");
+  $(".arrowPl19").css("visibility", "visible");
+});
+$( ".selectorPl20" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resPl20").css("display", "flex");
+  $(".arrowPl20").css("visibility", "visible");
+});
+$( ".selectorPl21" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resPl21").css("display", "flex");
+  $(".arrowPl21").css("visibility", "visible");
+});
+
+$( ".selectorPt1" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986");
+  $(".dataSelector").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".resPt1").css("display", "flex");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".arrowPt1").css("visibility", "visible");
+});
+$( ".selectorPt2" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".resPt2").css("display", "flex");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".arrowPt2").css("visibility", "visible");
+});
+$( ".selectorPt3" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".resPt3").css("display", "flex");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".arrowPt3").css("visibility", "visible");
+});
+$( ".selectorPt4" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass3");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resPt4").css("display", "flex");
+  $(".arrowPt4").css("visibility", "visible");
+});
+$( ".selectorPt5" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass3");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resPt5").css("display", "flex");
+  $(".arrowPt5").css("visibility", "visible");
+});
+$( ".selectorPt6" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass2");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resPt6").css("display", "flex");
+  $(".arrowPt6").css("visibility", "visible");
+});
+$( ".selectorPt7" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass2");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resPt7").css("display", "flex");
+  $(".arrowPt7").css("visibility", "visible");
+});
+$( ".selectorPt8" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass3");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resPt8").css("display", "flex");
+  $(".arrowPt8").css("visibility", "visible");
+});
+$( ".selectorPt9" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass4");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resPt9").css("display", "flex");
+  $(".arrowPt9").css("visibility", "visible");
+});
+$( ".selectorPt10" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resPt10").css("display", "flex");
+  $(".arrowPt10").css("visibility", "visible");
+});
+$( ".selectorPt11" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resPt11").css("display", "flex");
+  $(".arrowPt11").css("visibility", "visible");
+});
+$( ".selectorPt12" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resPt12").css("display", "flex");
+  $(".arrowPt12").css("visibility", "visible");
+});
+$( ".selectorPt13" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resPt13").css("display", "flex");
+  $(".arrowPt13").css("visibility", "visible");
+});
+$( ".selectorPt14" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resPt14").css("display", "flex");
+  $(".arrowPt14").css("visibility", "visible");
+});
+$( ".selectorPt15" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resPt15").css("display", "flex");
+  $(".arrowPt15").css("visibility", "visible");
+});
+$( ".selectorPt16" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resPt16").css("display", "flex");
+  $(".arrowPt16").css("visibility", "visible");
+});
+$( ".selectorPt17" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resPt17").css("display", "flex");
+  $(".arrowPt17").css("visibility", "visible");
+});
+$( ".selectorPt18" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resPt18").css("display", "flex");
+  $(".arrowPt18").css("visibility", "visible");
+});
+$( ".selectorPt19" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass10");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resPt19").css("display", "flex");
+  $(".arrowPt19").css("visibility", "visible");
+});
+$( ".selectorPt20" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resPt20").css("display", "flex");
+  $(".arrowPt20").css("visibility", "visible");
+});
+$( ".selectorPt21" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resPt21").css("display", "flex");
+  $(".arrowPt21").css("visibility", "visible");
+});
+
+$( ".selectorRo1" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".dataSelector").css("background-color", "#2e3986");
+  $(".dataSelector").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".resRo1").css("display", "flex");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".arrowRo1").css("visibility", "visible");
+});
+$( ".selectorRo2" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".resRo2").css("display", "flex");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".arrowRo2").css("visibility", "visible");
+});
+$( ".selectorRo3" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".resRo3").css("display", "flex");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".arrowRo3").css("visibility", "visible");
+});
+$( ".selectorRo4" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resRo4").css("display", "flex");
+  $(".arrowRo4").css("visibility", "visible");
+});
+$( ".selectorRo5" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resRo5").css("display", "flex");
+  $(".arrowRo5").css("visibility", "visible");
+});
+$( ".selectorRo6" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resRo6").css("display", "flex");
+  $(".arrowRo6").css("visibility", "visible");
+});
+$( ".selectorRo7" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resRo7").css("display", "flex");
+  $(".arrowRo7").css("visibility", "visible");
+});
+$( ".selectorRo8" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resRo8").css("display", "flex");
+  $(".arrowRo8").css("visibility", "visible");
+});
+$( ".selectorRo9" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resRo9").css("display", "flex");
+  $(".arrowRo9").css("visibility", "visible");
+});
+$( ".selectorRo10" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resRo10").css("display", "flex");
+  $(".arrowRo10").css("visibility", "visible");
+});
+$( ".selectorRo11" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resRo11").css("display", "flex");
+  $(".arrowRo11").css("visibility", "visible");
+});
+$( ".selectorRo12" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resRo12").css("display", "flex");
+  $(".arrowRo12").css("visibility", "visible");
+});
+$( ".selectorRo13" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resRo13").css("display", "flex");
+  $(".arrowRo13").css("visibility", "visible");
+});
+$( ".selectorRo14" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resRo14").css("display", "flex");
+  $(".arrowRo14").css("visibility", "visible");
+});
+$( ".selectorRo15" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resRo15").css("display", "flex");
+  $(".arrowRo15").css("visibility", "visible");
+});
+$( ".selectorRo16" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resRo16").css("display", "flex");
+  $(".arrowRo16").css("visibility", "visible");
+});
+$( ".selectorRo17" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resRo17").css("display", "flex");
+  $(".arrowRo17").css("visibility", "visible");
+});
+$( ".selectorRo18" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resRo18").css("display", "flex");
+  $(".arrowRo18").css("visibility", "visible");
+});
+$( ".selectorRo19" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass9");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resRo19").css("display", "flex");
+  $(".arrowRo19").css("visibility", "visible");
+});
+$( ".selectorRo20" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resRo20").css("display", "flex");
+  $(".arrowRo20").css("visibility", "visible");
+});
+$( ".selectorRo21" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resRo21").css("display", "flex");
+  $(".arrowRo21").css("visibility", "visible");
+});
+
+$( ".selectorSi1" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
+  $(".dataSelector").css("background-color", "#2e3986");
+  $(".dataSelector").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".resSi1").css("display", "flex");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".arrowSi1").css("visibility", "visible");
+});
+$( ".selectorSi2" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".resSi2").css("display", "flex");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".arrowSi2").css("visibility", "visible");
+});
+$( ".selectorSi3" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".resSi3").css("display", "flex");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".arrowSi3").css("visibility", "visible");
+});
+$( ".selectorSi4" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSi4").css("display", "flex");
+  $(".arrowSi4").css("visibility", "visible");
+});
+$( ".selectorSi5" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSi5").css("display", "flex");
+  $(".arrowSi5").css("visibility", "visible");
+});
+$( ".selectorSi6" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSi6").css("display", "flex");
+  $(".arrowSi6").css("visibility", "visible");
+});
+$( ".selectorSi7" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSi7").css("display", "flex");
+  $(".arrowSi7").css("visibility", "visible");
+});
+$( ".selectorSi8" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSi8").css("display", "flex");
+  $(".arrowSi8").css("visibility", "visible");
+});
+$( ".selectorSi9" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSi9").css("display", "flex");
+  $(".arrowSi9").css("visibility", "visible");
+});
+$( ".selectorSi10" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSi10").css("display", "flex");
+  $(".arrowSi10").css("visibility", "visible");
+});
+$( ".selectorSi11" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSi11").css("display", "flex");
+  $(".arrowSi11").css("visibility", "visible");
+});
+$( ".selectorSi12" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSi12").css("display", "flex");
+  $(".arrowSi12").css("visibility", "visible");
+});
+$( ".selectorSi13" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSi13").css("display", "flex");
+  $(".arrowSi13").css("visibility", "visible");
+});
+$( ".selectorSi14" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSi14").css("display", "flex");
+  $(".arrowSi14").css("visibility", "visible");
+});
+$( ".selectorSi15" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSi15").css("display", "flex");
+  $(".arrowSi15").css("visibility", "visible");
+});
+$( ".selectorSi16" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSi16").css("display", "flex");
+  $(".arrowSi16").css("visibility", "visible");
+});
+$( ".selectorSi17" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSi17").css("display", "flex");
+  $(".arrowSi17").css("visibility", "visible");
+});
+$( ".selectorSi18" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSi18").css("display", "flex");
+  $(".arrowSi18").css("visibility", "visible");
+});
+$( ".selectorSi19" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSi19").css("display", "flex");
+  $(".arrowSi19").css("visibility", "visible");
+});
+$( ".selectorSi20" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSi20").css("display", "flex");
+  $(".arrowSi20").css("visibility", "visible");
+});
+$( ".selectorSi21" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSi21").css("display", "flex");
+  $(".arrowSi21").css("visibility", "visible");
+});
+
+$( ".selectorSk1" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".dataSelector").css("background-color", "#2e3986");
+  $(".dataSelector").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".resSk1").css("display", "flex");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".arrowSk1").css("visibility", "visible");
+});
+$( ".selectorSk2" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".resSk2").css("display", "flex");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".arrowSk2").css("visibility", "visible");
+});
+$( ".selectorSk3" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".resSk3").css("display", "flex");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".arrowSk3").css("visibility", "visible");
+});
+$( ".selectorSk4" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSk4").css("display", "flex");
+  $(".arrowSk4").css("visibility", "visible");
+});
+$( ".selectorSk5" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSk5").css("display", "flex");
+  $(".arrowSk5").css("visibility", "visible");
+});
+$( ".selectorSk6" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass4");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSk6").css("display", "flex");
+  $(".arrowSk6").css("visibility", "visible");
+});
+$( ".selectorSk7" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSk7").css("display", "flex");
+  $(".arrowSk7").css("visibility", "visible");
+});
+$( ".selectorSk8" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSk8").css("display", "flex");
+  $(".arrowSk8").css("visibility", "visible");
+});
+$( ".selectorSk9" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSk9").css("display", "flex");
+  $(".arrowSk9").css("visibility", "visible");
+});
+$( ".selectorSk10" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSk10").css("display", "flex");
+  $(".arrowSk10").css("visibility", "visible");
+});
+$( ".selectorSk11" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSk11").css("display", "flex");
+  $(".arrowSk11").css("visibility", "visible");
+});
+$( ".selectorSk12" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSk12").css("display", "flex");
+  $(".arrowSk12").css("visibility", "visible");
+});
+$( ".selectorSk13" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSk13").css("display", "flex");
+  $(".arrowSk13").css("visibility", "visible");
+});
+$( ".selectorSk14" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSk14").css("display", "flex");
+  $(".arrowSk14").css("visibility", "visible");
+});
+$( ".selectorSk15" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSk15").css("display", "flex");
+  $(".arrowSk15").css("visibility", "visible");
+});
+$( ".selectorSk16" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSk16").css("display", "flex");
+  $(".arrowSk16").css("visibility", "visible");
+});
+$( ".selectorSk17" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSk17").css("display", "flex");
+  $(".arrowSk17").css("visibility", "visible");
+});
+$( ".selectorSk18" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSk18").css("display", "flex");
+  $(".arrowSk18").css("visibility", "visible");
+});
+$( ".selectorSk19" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSk19").css("display", "flex");
+  $(".arrowSk19").css("visibility", "visible");
+});
+$( ".selectorSk20" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSk20").css("display", "flex");
+  $(".arrowSk20").css("visibility", "visible");
+});
+$( ".selectorSk21" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSk21").css("display", "flex");
+  $(".arrowSk21").css("visibility", "visible");
+});
+
+$( ".selectorFi1" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
+  $(".dataSelector").css("background-color", "#2e3986");
+  $(".dataSelector").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".resFi1").css("display", "flex");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".arrowFi1").css("visibility", "visible");
+});
+$( ".selectorFi2" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".resFi2").css("display", "flex");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".arrowFi2").css("visibility", "visible");
+});
+$( ".selectorFi3" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".resFi3").css("display", "flex");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".arrowFi3").css("visibility", "visible");
+});
+$( ".selectorFi4" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass3");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resFi4").css("display", "flex");
+  $(".arrowFi4").css("visibility", "visible");
+});
+$( ".selectorFi5" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass3");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resFi5").css("display", "flex");
+  $(".arrowFi5").css("visibility", "visible");
+});
+$( ".selectorFi6" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass3");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resFi6").css("display", "flex");
+  $(".arrowFi6").css("visibility", "visible");
+});
+$( ".selectorFi7" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass3");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resFi7").css("display", "flex");
+  $(".arrowFi7").css("visibility", "visible");
+});
+$( ".selectorFi8" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass4");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resFi8").css("display", "flex");
+  $(".arrowFi8").css("visibility", "visible");
+});
+$( ".selectorFi9" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resFi9").css("display", "flex");
+  $(".arrowFi9").css("visibility", "visible");
+});
+$( ".selectorFi10" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resFi10").css("display", "flex");
+  $(".arrowFi10").css("visibility", "visible");
+});
+$( ".selectorFi11" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resFi11").css("display", "flex");
+  $(".arrowFi11").css("visibility", "visible");
+});
+$( ".selectorFi12" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resFi12").css("display", "flex");
+  $(".arrowFi12").css("visibility", "visible");
+});
+$( ".selectorFi13" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resFi13").css("display", "flex");
+  $(".arrowFi13").css("visibility", "visible");
+});
+$( ".selectorFi14" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resFi14").css("display", "flex");
+  $(".arrowFi14").css("visibility", "visible");
+});
+$( ".selectorFi15" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resFi15").css("display", "flex");
+  $(".arrowFi15").css("visibility", "visible");
+});
+$( ".selectorFi16" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resFi16").css("display", "flex");
+  $(".arrowFi16").css("visibility", "visible");
+});
+$( ".selectorFi17" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resFi17").css("display", "flex");
+  $(".arrowFi17").css("visibility", "visible");
+});
+$( ".selectorFi18" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resFi18").css("display", "flex");
+  $(".arrowFi18").css("visibility", "visible");
+});
+$( ".selectorFi19" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resFi19").css("display", "flex");
+  $(".arrowFi19").css("visibility", "visible");
+});
+$( ".selectorFi20" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resFi20").css("display", "flex");
+  $(".arrowFi20").css("visibility", "visible");
+});
+$( ".selectorFi21" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resFi21").css("display", "flex");
+  $(".arrowFi21").css("visibility", "visible");
+});
+
+$( ".selectorSe1" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986");
+  $(".dataSelector").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".resSe1").css("display", "flex");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".arrowSe1").css("visibility", "visible");
+});
+$( ".selectorSe2" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".resSe2").css("display", "flex");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".arrowSe2").css("visibility", "visible");
+});
+$( ".selectorSe3" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".resSe3").css("display", "flex");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".arrowSe3").css("visibility", "visible");
+});
+$( ".selectorSe4" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSe4").css("display", "flex");
+  $(".arrowSe4").css("visibility", "visible");
+});
+$( ".selectorSe5" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass4");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSe5").css("display", "flex");
+  $(".arrowSe5").css("visibility", "visible");
+});
+$( ".selectorSe6" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass4");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSe6").css("display", "flex");
+  $(".arrowSe6").css("visibility", "visible");
+});
+$( ".selectorSe7" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass4");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSe7").css("display", "flex");
+  $(".arrowSe7").css("visibility", "visible");
+});
+$( ".selectorSe8" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSe8").css("display", "flex");
+  $(".arrowSe8").css("visibility", "visible");
+});
+$( ".selectorSe9" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSe9").css("display", "flex");
+  $(".arrowSe9").css("visibility", "visible");
+});
+$( ".selectorSe10" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSe10").css("display", "flex");
+  $(".arrowSe10").css("visibility", "visible");
+});
+$( ".selectorSe11" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSe11").css("display", "flex");
+  $(".arrowSe11").css("visibility", "visible");
+});
+$( ".selectorSe12" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSe12").css("display", "flex");
+  $(".arrowSe12").css("visibility", "visible");
+});
+$( ".selectorSe13" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSe13").css("display", "flex");
+  $(".arrowSe13").css("visibility", "visible");
+});
+$( ".selectorSe14" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass5");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSe14").css("display", "flex");
+  $(".arrowSe14").css("visibility", "visible");
+});
+$( ".selectorSe15" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSe15").css("display", "flex");
+  $(".arrowSe15").css("visibility", "visible");
+});
+$( ".selectorSe16" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSe16").css("display", "flex");
+  $(".arrowSe16").css("visibility", "visible");
+});
+$( ".selectorSe17" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSe17").css("display", "flex");
+  $(".arrowSe17").css("visibility", "visible");
+});
+$( ".selectorSe18" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSe18").css("display", "flex");
+  $(".arrowSe18").css("visibility", "visible");
+});
+$( ".selectorSe19" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass8");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSe19").css("display", "flex");
+  $(".arrowSe19").css("visibility", "visible");
+});
+$( ".selectorSe20" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass7");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSe20").css("display", "flex");
+  $(".arrowSe20").css("visibility", "visible");
+});
+$( ".selectorSe21" ).click(function() {
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass6");
+  $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
+  $(this).css("color", "black").css("background-color", "white");
+  $(".resWrapper").css("display", "none");
+  $(".arrow-down").css("visibility", "hidden");
+  $(".resSe21").css("display", "flex");
+  $(".arrowSe21").css("visibility", "visible");
 });
