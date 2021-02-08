@@ -28,6 +28,20 @@ $elements.each(function(i) {
     });
 });
 
+$( ".continue" ).click(function() {
+  setTimeout(
+  function()
+  {
+    $(".initwrapper").animate({opacity: 0});
+  }, 300);
+  setTimeout(
+  function()
+  {
+    $(".circle-container").css({opacity: 0.0, visibility: "visible"}).animate({opacity: 1.0}, 1500);
+  }, 800);
+});
+
+
 //flag button functionality
 $( ".flag_be" ).click(function() {
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
