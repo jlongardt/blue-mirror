@@ -2649,7 +2649,7 @@ $( ".selectorCy6" ).click(function() {
   $(".arrowCy6").css("visibility", "visible");
 });
 $( ".selectorCy7" ).click(function() {
-  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass0");
+  $(".glass").removeClass("glass1 glass2 glass3 glass4 glass5 glass6 glass7 glass8 glass9 glass10").addClass("glass1");
   $(".dataSelector").css("background-color", "#2e3986").css("color", "white");
   $(this).css("color", "black").css("background-color", "white");
   $(".resWrapper").css("display", "none");
