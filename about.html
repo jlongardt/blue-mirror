@@ -2,23 +2,8 @@
 <html>
   <head>
     <title>Blue Mirror: How the EU sees itself</title>
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <!-- Custom CSS file -->
@@ -29,13 +14,49 @@
   </head>
 
   <body>
-
+  <div class="logo">
+    <a  href="index.html">
+      <img src="img/logo.svg" alt="logo" width="90px"></img>
+    </a>
+  </div>
   <div class="container-md">
-    <div class="row justify-content-center ">
-      <div class="col-md-6 col-9">
-        Even though from the outside the EU may seem stronger and more unified than ever, there has been an ongoing skepticism towards the EU, with the Brexit was only being one consequence of it. This website shows the development of the public opinion on the EU over the last 10 years and allows for a comparison across its different member countries.
+    <div class="row justify-content-center">
+      <div class="col-md-8 col-9 content">
+        <h1>HOW THE EU SEES ITSELF</h1><br>Even though from the outside the EU may still seem strong and unified, there has been an ongoing skepticism towards the EU among many citizens, with the Brexit only being one consequence of it. This website shows the development of the public opinion on the EU over the last 10 years and allows for a comparison across its different member countries.<br><br>
+        <h2>DATASET AND RELEVANCE</h2>
+        <div class="image text-center">
+          <img src="img/eurobarometer.jpg" alt="logo" width="300px"></img><br>
+          <p>The Standard Eurobarometer is provided by the European Commision.</p>
+        </div>
+        The dataset used is the Standard Eurobarometer, a survey about the opinion of citizens on EU politics. Twice a year, around 1000 people are interviewed with a catalogue of around 200 questions. The survey started in in 1974. From the various questions, the most general one was chosen to summarize the topic:<br><br>
+        <i>In general, does the EU conjure up for you a very positive, fairly positive, neutral, fairly negative or very negative image?</i><br><br>
+        The poll results are separated by country. To enable a comparison between the results of different years, the timeframe was set from 2010 to 2020. For simplification, only the combined positive, combined negative, neutral and undecided votes were considered. The results were then converted to a scale from 1 to 10, with higher numbers meaning better results. This allows for an easier comparison in the set timeframe and between countries. The modified dataset can be downloaded <a href="blue-mirror_dataset.xlsx" download>here</a>.<br>
+        <br>
+        <div class="image text-center fullscreen">
+          <img src="img/values.svg" alt="logo"></img><br>
+          <p>The calculated values from the poll results show the change of opinion on the EU.</p>
+        </div><br>
+        <h2>METAPHOR</h2>
+        As the Eurobarometer is about the image the Europeans have on the EU, a mirror serves as the metaphor to show that these poll results are the self-image of the EU. The viewer will be able to see his webcam image as through a mirror reflection, underlining that each individual makes a part of the EU.<br><br>
+        Cracks in the mirror glass illustrate the fragility of the EU as an institution. The more negative the results are from a given country, the more the cracks will increase and the more distorted the image will be. Because they are being drawn from the calculated numbers of the dataset, there are 10 stages of gravity of the cracks.<br><br>
+        <h2>ARGUMENT AND INTENTION</h2>
+        The datasets show clearly that the European public is divided. A considerable amount of people has a neutral or negative image of the EU, which has many reasons that also vary between the member countries.
+        <i>Blue Mirror</i> wants to portray the EU as an important, yet imperfect institution that should concern each of its citizens, but which is threatened by a variety of influences that makes many people lose trust in it.
+        <br><br>
+        <h2>INTENDED MEANING</h2>
+        The broken mirror as a metaphor is intended to give a sense of urgency to the topic. The EU is portrayed as a fragile institution that must be protected, but also worked on in order to improve its image among the citizens.
+        The decision of showing the user‘s webcam image as the mirror reflection was made in order to give a sense of being connected to any country‘s poll results, as every country is part of the union and every citizen‘s opinion is important to its health.
       </div>
     </div>
+  </div>
+    <div class=" row col-12 justify-content-center footer">
+      <div class="col-md-5 col-6 content footercontent">
+        A PROJECT BY JOHANNES LONGARDT<br>PROF. ZINGALE&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;INFOPOETRY 2020/2021
+        <div class="text-center footerlogos">
+          <img src="img/polimi.svg" alt="logo" width="100px"></img>
+          <img src="img/density.svg" alt="logo" width="75px"></img>
+        <div>
+      </div>
   </div>
 
     <!-- JQuery -->

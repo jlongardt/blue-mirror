@@ -11,6 +11,10 @@ if (navigator.mediaDevices.getUserMedia) {
     });
 }
 
+if (screen.width <= 700) {
+     document.location = "mobile.html";
+}
+
 var type = 1, //circle type - 1 whole, 0.5 half, 0.25 quarter
     radius = '13vw', //distance from center
     start = -90, //shift start from 0
